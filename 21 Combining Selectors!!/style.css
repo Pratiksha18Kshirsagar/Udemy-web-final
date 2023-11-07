@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1 , h2{
+    color:blueviolet;
+}
+
+/* child selector */
+div > p{
+    color: firebrick;
+}
+
+/* Descendent selector */
+.list li{
+    color: blue;
+}
+
+/* Chained selector */
+li.done{
+  color: seagreen;
+}
+
+/* combine combiners   */
+ul p.done{
+    font-size: 0.5rem;
+}
