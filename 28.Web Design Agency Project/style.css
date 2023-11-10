@@ -25,11 +25,32 @@ footer {
 .right{
   float:right;
 }
+.creative {
+  color: midnightblue;
+}
 
-div{
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+.card {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+  
+.card img{
+  margin-bottom: 10px;
   display: inline;
 }
-.text-card{
-  /* float: right; */
-  display: inline;
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.card{
+  width: 45%;
 }
