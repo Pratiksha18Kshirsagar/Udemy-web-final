@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
   flex: 1;
 }
@@ -18,18 +19,56 @@ footer {
   text-align: right;
   color: midnightblue;
 }
-.left{
+.creative{
+  color: darkblue;
+}
+
+.left {
   float: left;
 
 }
-.right{
-  float:right;
+
+.right {
+  float: right;
 }
 
-div{
-  display: inline;
+
+.card {
+  width: 45%;
 }
-.text-card{
-  /* float: right; */
+
+/* .card-title {
   display: inline;
+} */
+
+.tile-image {
+  float: left;
+  margin-right: 50px;
+  height: 200px;
+}
+@media (max-width: 680px){
+  .logo {
+    width: 100px;
+  }
+
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+.card {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.card img {
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  object-fit: cover;
+}
 }
