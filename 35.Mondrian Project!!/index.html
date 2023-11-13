@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      height: 748px;
+      width: 748px;
+      background-color: black;
+      gap: 9px;
+      display: grid;
+      grid-template-rows: 414px 295px 20px;
+      grid-template-columns: 320px 351px 50px 
+
+    }
+    .box1{
+      background-color: #E72F24 ;
+      height: 414px;
+      width: 320px;
+    }
+    .box2{
+      background-color: #F0F1EC ;
+      height: 414px;
+      width:410px;
+      grid-column: span 2 ;
+    }
+    .box3{
+      background-color: #F0F1EC ;
+      height: 295px;
+      width:320px;
+
+    }
+    .box4{
+      background-color: #F0F1EC ;
+      height: 295px;
+      width:351px;
+    }
+    .box5{
+      background-color: #004592 ;
+      height: 130px;
+      width:50px;
+      border-bottom: 10px solid black;
+    }
+    .box6{
+      background-color:#F0F1EC ;
+      height: 20px;
+      width:320px;
+    }
+    .box7{
+      background-color: #F9D01E ;
+      height: 20px;
+      width: 198px;
+    }
+    .box8{
+      background-color:#232629 ;
+      width: 153px;
+      height: 20px;
+    }
+    .box9{
+      background-color:#F0F1EC ;
+      width: 50px;
+      height: 175px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <span class="box7"></span>
+
+    <div class="box8"></div>
+    <div class="box9"></div>
+  </div>
+
+</body>
+
+</html>
