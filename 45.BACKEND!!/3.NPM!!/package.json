@@ -1,0 +1,16 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "hii he is bvc he is eating mera talee",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pratiksha kshirsagar",
+  "license": "ISC",
+  "dependencies": {
+    "sillyname": "^0.1.0",
+    "superheroes": "^3.0.0"
+  }
+}
